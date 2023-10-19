@@ -57,7 +57,7 @@ subValue: 200
 
 Es importante entender este proceso de inicialización de clases en herencia para garantizar que las variables y la lógica de inicialización se manejen correctamente en tus programas Java.
 
-##### Ejemplo si no se usa super en el constructor de la subclase
+##### Sin super subclase
 
 Si no utilizas la palabra clave `super()` en el constructor de una subclase, Java automáticamente invocará el constructor predeterminado (sin argumentos) de la superclase. Esto es lo que sucede por defecto cuando no proporcionas explícitamente una llamada a `super()` en el constructor de una subclase. Esto es importante para comprender cómo se maneja la inicialización de la superclase en el contexto de la herencia.
 
