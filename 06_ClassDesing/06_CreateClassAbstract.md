@@ -66,6 +66,9 @@ Este ejemplo si compila e imprime **yummy!**. Este es el orden de ejecución:
 1. new Platypus(): Llama al constructor por defecto, el cual, no está definido, y este llama automaticamente a constructor de su padre **Mammal**
 2. call chew(): en tiempo de ejecución llama a la implementación **chew()** de la clase **Platypus
 
+### Declaraciones invalidas
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/30fad817-c9a9-492b-b3ec-9366a54beb78)
 
 
 
