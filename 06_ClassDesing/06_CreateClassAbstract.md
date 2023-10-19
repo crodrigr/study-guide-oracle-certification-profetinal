@@ -70,5 +70,27 @@ Este ejemplo si compila e imprime **yummy!**. Este es el orden de ejecución:
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/30fad817-c9a9-492b-b3ec-9366a54beb78)
 
+### abstract and final modifires
 
+El **final** no es permitido en class y métodos abstract
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/f140db52-b057-4fd8-83e6-8f90ee37b31d)
+
+### abstract and private modifiers
+
+Un método no puede ser **private** por que no es visible en las subclases. 
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/f1c4291d-9ff3-4209-b1c4-b48ca163a67e)
+
+Este ejemplo:
+
+No compila por que el modificador de acceso del override no puede reducir la visibilidad el método padre. 
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/6111093e-a0d4-428c-9549-ee4e5cd66b3e)
+
+#### abstrct and static modifiers
+
+No puede ser static, por que los métodos static en herrecia se ocultan, no se overriden, por lo tanto, genera error no se puede implementar.
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/1bc22cfa-b0ca-4d2f-8dad-5a0faaa6d38c)
 
