@@ -31,5 +31,33 @@ En este ejemplo se observa como al definier un objeto de Canine pero se instanci
 
 Los métodos abstractos siempre se declaran sin cuerpo e incluyen **;** y deben ir dentro una clase **abstract**. Una clase abstract tiene los mismo miembros de las clases no abstract, incluye variables,static,instance métodos, constructores.
 
+#### las clases abstract no es requisisto que tenga métodos abstractos
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/9802fe03-7517-4e87-842f-f07492711839)
+
+Caso contrario.
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/aad66fad-70db-41d0-945b-a785b026c09c)}}
+
+#### abstract modificador puede ir antes o despued del modificador de acceso
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/94d083fc-8469-4d48-945f-179342e9b15f)
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/a76631bd-d70d-4759-8b54-6111d8757c82)
+
+#### Clases hijas que no override métodos abstract
+
+Si una clase hija que no va a override método, debe ser **abstract**, y su desendencia debe hacer el **override**
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/0ee1641f-f026-4946-aa79-8be199ee3ff1)
+
+Otro ejemplo donde hay  una mayor desendencia
+
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/1d99f942-ecb9-47a8-8576-603cfbc179ce)
+
+
+
+
+
 
 
