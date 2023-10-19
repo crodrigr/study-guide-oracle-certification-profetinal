@@ -9,7 +9,7 @@ Las clases **abstract** tiene métodos abstract, los cuales no tiene definición
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/0214265e-7068-4947-b95d-64478885035a)
 
 
-#### Ejemplo:
+### Ejemplo:
 
 En este ejemplo se observa como al definier un objeto de Canine pero se instancia un objeto de clase Fox, y este en tiempo de ejecución llama al método de **getSound()** de la clase **Fox**
 
@@ -17,21 +17,21 @@ En este ejemplo se observa como al definier un objeto de Canine pero se instanci
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/1d76b65a-d158-4297-a6dc-9d3592ea44e1)
 
-#### Reglas class abstract
+### Reglas class abstract
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/2a6bfcc3-9df8-4db6-b6d6-4e7eb4976ba6)
 
-#### Ejemplo de una clases abstract que no cumplen las reglas:
+### Ejemplo de una clases abstract que no cumplen las reglas:
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/9cae5302-ccd6-4059-a156-253b50552c74)
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/9c93b28c-18f1-4510-ac3d-adbcfd1f3470)
 
-#### Declaración de abstract method
+### Declaración de abstract method
 
 Los métodos abstractos siempre se declaran sin cuerpo e incluyen **;** y deben ir dentro una clase **abstract**. Una clase abstract tiene los mismo miembros de las clases no abstract, incluye variables,static,instance métodos, constructores.
 
-#### las clases abstract no es requisisto que tenga métodos abstractos
+### las clases abstract no es requisisto que tenga métodos abstractos
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/9802fe03-7517-4e87-842f-f07492711839)
 
@@ -39,13 +39,13 @@ Caso contrario.
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/aad66fad-70db-41d0-945b-a785b026c09c)}}
 
-#### abstract modificador puede ir antes o despued del modificador de acceso
+### abstract modificador puede ir antes o despued del modificador de acceso
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/94d083fc-8469-4d48-945f-179342e9b15f)
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/a76631bd-d70d-4759-8b54-6111d8757c82)
 
-#### Clases hijas que no override métodos abstract
+### Clases hijas que no override métodos abstract
 
 Si una clase hija que no va a override método, debe ser **abstract**, y su desendencia debe hacer el **override**
 
@@ -55,8 +55,16 @@ Otro ejemplo donde hay  una mayor desendencia
 
 ![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/1d99f942-ecb9-47a8-8576-603cfbc179ce)
 
+### Constructor class abstract
 
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/ac7db87a-0fec-4b6a-a602-ee4730ec2ed8)
 
+![image](https://github.com/crodrigr/study-guide-oracle-certification-profetinal/assets/31961588/7c9fb3d8-63a5-4621-a913-34517809041b)
+
+Este ejemplo si compila e imprime **yummy!**. Este es el orden de ejecución:
+
+1. new Platypus(): Llama al constructor por defecto, el cual, no está definido, y este llama automaticamente a constructor de su padre **Mammal**
+2. call chew(): en tiempo de ejecución llama a la implementación **chew()** de la clase **Platypus
 
 
 
